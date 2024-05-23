@@ -204,32 +204,44 @@
     <div class="bg-body-tertiary p-5 rounded">
       <form>
         <div class="mb-3">
-          <label for="stateSelect">Select State</label>
-          <select id="stateSelect" name="state">
-  
-    
-          </select>
+
+          <input type="radio" name="pickOne" id="stateType" value="state">
+          <label for="stateType">State</label>
+          <input type="radio" name="pickOne" di="parktype" value="park">
+          <label for="parktype">Park type</label>
         </div>
+        <label for="stateSelect">Select State</label>
+        <select id="stateSelect" name="state">
+        </select>
 
         <div class="mb-3">
           <label for="parkTypeSelect">Select Park Type</label>
           <select id="parkTypeSelect" name="parkType">
-           
           </select>
         </div>
-        
-
-        <button type="submit" id="submitButton" class="btn btn-primary">Submit</button>
+        <!-- <button type="submit" id="submitButton" class="btn btn-primary">Submit</button> -->
 
       </form>
 
     </div>
+
   </main>
+
+
+  <div class="container">
+    <div class="row" id="cardRowOutput">
+      <div class="col-7 mx-auto mb-5">
+      
+    </div>
+  </div>
+
+
+
   <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
-  <script scr="scripts/locationData.js"></script>
-  <script scr="scripts/mountainData.js"></script>
-  <script scr="scripts/nationalParkData.js"></script>
-  <script scr="scripts/parkTypeData.js"></script>
+  <!-- <script src="scripts/locationData.js"></script> -->
+  <script src="scripts/mountainData.js"></script>
+  <script src="scripts/nationalParkData.js"></script>
+  <!-- <script src="scripts/parkTypeData.js"></script> -->
   <script src="scripts/Parks.js"></script>
 
 
