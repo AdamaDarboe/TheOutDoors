@@ -1,0 +1,41 @@
+
+    
+    /* .pos_cen
+    {
+       position: absolute;
+       width: 70%;
+    }
+    
+    body{
+       background-color: rgb(226, 77, 127);
+    }
+    
+    header{
+       background-color: rgb(237, 183, 192); 
+    } */
+       
+     #Parks{
+       width: 500px; 
+       background-color: rgb(145, 109, 179);
+       margin: auto;
+       padding: 25px;
+    }
+    #mountains{
+       width: 500px; 
+       background-color: rgb(97, 159, 114);
+       margin: auto;
+       padding: 25px;
+    }
+    #reg{
+       width: 500px; 
+       background-color: rgb(145, 109, 179);
+       margin: auto;
+       padding: 25px;
+    }
+    
+    /* #rbutton{
+      text-align:center ;
+    } */
+    body {
+        background-color: lightblue;
+      }
